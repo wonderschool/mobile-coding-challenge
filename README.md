@@ -29,8 +29,7 @@ displayed at the bottom
 * Prefer to use functional components unless there is reason to use class based components
 * Prefer to use hooks
 * Use immutable data and js functional higher order functions (reduce, map, filter, etc) when possible
-* Make sure code is styled and linted. eslint and prettier has been set up. You may need to use the `.win`
-  variety depending on your OS
+* Make sure code is styled and linted. eslint and prettier has been set up.
 * import the data from `src/data/menu`. Treat this data as if it were from data you received from an API.
   Store this data however you see fit.
 * do not use any third party state manager (ie. redux). You may use context api
@@ -44,6 +43,24 @@ displayed at the bottom
 * All the points under 'Coding Challenge' above should be completed
 
 * App should be usable from a user's perspective
+
+## Submission
+
+To submit your coding challenge, commit all your changes to the `master` branch and run the
+following commands:
+
+```
+# Make sure all changes were committed
+git diff-index --quiet HEAD -- || echo 'You have uncommitted changes!'
+
+# Create bundle to submit
+git bundle create mobile-coding-challenge.bundle HEAD master
+```
+
+Email the generated _mobile-coding-challenge.bundle_ file to engineering@wonderschool.com. We do our
+best to review and respond to submissions within 1-2 business days.
+
+Thanks for taking the time to do this coding challenge and here's hoping we talk soon!
 
 ## Sample Images
 Here is how a completed project could look

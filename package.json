@@ -7,9 +7,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "lint": "eslint ./**/*.js",
-    "lint.fix": "eslint ./**/*.js --fix",
-    "lint.win": "eslint './**/*.js'",
-    "lint.fix.win": "eslint './**/*.js' --fix"
+    "lint.fix": "eslint ./**/*.js --fix"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.10",
