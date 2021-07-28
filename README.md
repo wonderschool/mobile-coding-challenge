@@ -33,6 +33,7 @@ displayed at the bottom
 * import the data from `src/data/menu`. Treat this data as if it were from data you received from an API.
   Store this data however you see fit.
 * do not use any third party state manager (ie. redux). You may use context api
+* react navigation has been set up in the project. Use that for navigation
 
 ## Grading Criteria
 ** STYLING WILL NOT BE CONSIDERED **
