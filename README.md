@@ -7,7 +7,7 @@ formal interviews, we ask that all candidates submit a coding challenge. The cod
 a foundational piece of our process and it's referenced later in our process during the technical
 interviews.
 
-The project is designed to test your React and React Native abilities, or your abilities to problem solve
+The project is designed to test your React and React Native abilities, or your abilities to problem-solve
 in a real world setting
 
 If at any point you have questions concerning the coding challenge and/or interview process, please
@@ -26,15 +26,19 @@ displayed at the bottom
 
 ## Technical Detail
 * Prefer to use functional components unless there is reason to use class based components
+* Prefer to use hooks
 * Use immutable data and js functional higher order functions (reduce, map, filter, etc) when possible
 * Make sure code is styled and linted. eslint and prettier has been set up. You may need to use the `.win`
-variety depending on your OS
+  variety depending on your OS
+* import the data from `src/data/menu`. Treat this data as if it were from data you received from an API.
+  Store this data however you see fit.
+* do not use any third party state manager (ie. redux). You may use context api
 
 ## Grading Criteria
 ** STYLING WILL NOT BE CONSIDERED **
-In the interest of keeping this challenge short, spend a minimal amount of time styling the components.
-The styling shouldn't affect usability of the UI, but I don't care if it is ugly.
+* In the interest of keeping this challenge short, spend a minimal amount of time styling the components.
+  The styling shouldn't affect usability of the UI, but I don't care if it is ugly.
 
-All the points under 'Coding Challenge' above should be completed
+* All the points under 'Coding Challenge' above should be completed
 
-
+* App should be usable from a user's perspective

@@ -14,5 +14,25 @@ export const menuItems = [
     name: 'Gyuudon',
     price: 4.99,
   },
+  {
+    id: 'tomahawkSteak',
+    name: '44 oz Tomahawk Steak',
+    price: 92.48
+  },
+  {
+    id: 'spaghettiMeatball',
+    name: 'Spaghetti and Meatballs',
+    price: 7.99
+  },
+  {
+    id: 'homerunBall',
+    name: 'Homerun Balls',
+    price: 2.50
+  },
+  {
+    id: 'chickenSandwich',
+    name: 'Chicken Sandwich',
+    price: 3.99
+  }
 
 ]
