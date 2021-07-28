@@ -14,18 +14,21 @@ If at any point you have questions concerning the coding challenge and/or interv
 do not hesitate to email engineering@wonderschool.com.
 
 ## Coding Challenge
-This coding challenge revolves around building a simple menu and shopping cart. Users are allowed to add
+* This coding challenge revolves around building a simple menu and shopping cart. Users are allowed to add
 items from the menu to the shopping cart.
-The user can change screens to the shopping cart.
-The shopping cart will have all the items that were added from the menu screen and an 'amount' display object showing
+* The user can change screens to the shopping cart.
+* The shopping cart will have all the items that were added from the menu screen and an 'amount' display object showing
 the number of times that item was added to the shopping cart.
-There should be a (+) button to add 1 to the amount for an item and a (-) button to subtract 1 from the amount
-When an item in the shopping cart reaches 0 amount, it should be removed from the shopping cart
-There should be a total cost that is a sum of all the items (x the amount) in the shopping cart
+* There should be a (+) button to add 1 to the amount for an item and a (-) button to subtract 1 from the amount
+* When an item in the shopping cart reaches 0 amount, it should be removed from the shopping cart
+* There should be a total cost that is a sum of all the items (x the amount) in the shopping cart
 displayed at the bottom
 
 ## Technical Detail
-
+* Prefer to use functional components unless there is reason to use class based components
+* Use immutable data and js functional higher order functions (reduce, map, filter, etc) when possible
+* Make sure code is styled and linted. eslint and prettier has been set up. You may need to use the `.win`
+variety depending on your OS
 
 ## Grading Criteria
 ** STYLING WILL NOT BE CONSIDERED **
