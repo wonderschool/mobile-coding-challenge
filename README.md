@@ -14,12 +14,13 @@ If at any point you have questions concerning the coding challenge and/or interv
 do not hesitate to email engineering@wonderschool.com.
 
 ## Coding Challenge
-* This coding challenge revolves around building a simple menu and shopping cart. Users are allowed to add
-items from the menu to the shopping cart.
+* This coding challenge revolves around building a simple menu and shopping cart.
+* The user can add items from the menu to the shopping cart.
 * The user can change screens to the shopping cart.
 * The shopping cart will have all the items that were added from the menu screen and an 'amount' display object showing
 the number of times that item was added to the shopping cart.
 * There should be a (+) button to add 1 to the amount for an item and a (-) button to subtract 1 from the amount
+* The shopping cart should also include the base price of the item, and the total price (base x amount)
 * When an item in the shopping cart reaches 0 amount, it should be removed from the shopping cart
 * There should be a total cost that is a sum of all the items (x the amount) in the shopping cart
 displayed at the bottom
@@ -43,3 +44,7 @@ displayed at the bottom
 * All the points under 'Coding Challenge' above should be completed
 
 * App should be usable from a user's perspective
+
+## Sample Images
+Here is how a completed project could look
+It does not have to look like this
