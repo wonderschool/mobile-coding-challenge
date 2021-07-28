@@ -48,3 +48,7 @@ displayed at the bottom
 ## Sample Images
 Here is how a completed project could look
 It does not have to look like this
+
+<img width="381" alt="Screen Shot 2021-07-28 at 12 06 10 AM" src="https://user-images.githubusercontent.com/3309671/127279653-3e9726f4-2f9e-45d3-8ad2-3046889fb1f5.png">
+<img width="398" alt="Screen Shot 2021-07-27 at 11 58 53 PM" src="https://user-images.githubusercontent.com/3309671/127279655-e7b3e7a6-cc20-44d9-ba69-6775fbbb36cc.png">
+
