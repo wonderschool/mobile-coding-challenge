@@ -1,20 +1,24 @@
-# Wonderschool Mobile Coding Challenge
+# Wonderschool Mobile Project
 
 ## Introduction
 
-Thanks for your interest in joining the Wonderschool engineering team! Before we proceed with more
-formal interviews, we ask that all candidates submit a coding challenge. The coding challenge is
-a foundational piece of our process and it's referenced later in our process during the technical
-interviews.
+**Thanks for your interest in joining the Wonderschool engineering team! Our team is on a mission to ensure every child has access to early education that help them realize their potential. We believe we can impact the lives of every child by building well designed and well engineered products.**
 
-The project is designed to test your React and React Native abilities, or your abilities to problem-solve
-in a real world setting
+If you're one of those people that love solving challenging problems that touches the lives of many, we would love to talk to you.
 
-If at any point you have questions concerning the coding challenge and/or interview process, please
-do not hesitate to email engineering@wonderschool.com.
+As a start to our formal interview process, we ask everyone to submit a project. The project is a foundational piece of our process and it's referenced later in our process during the technical interviews.
 
-## Coding Challenge
-* This coding challenge revolves around building a simple menu and shopping cart.
+This project is designed to figure out if you would love working on our stack -- we build most of our mobile apps using `React Native`. We'd also would like to see how you would problem-solve in a real world setting.
+
+If at any point you have questions concerning the project and/or interview process, please
+do not hesitate to email engineering@wonderschool.com. We would also love to hear from you if you have a better idea on how we can do this. We love engineers that have an opinion about improving processes.
+
+Again, thanks for taking the time to do this project and here's hoping we talk soon!
+
+---
+
+## [Project](#project)
+* This project revolves around building a simple menu and shopping cart.
 * The user can add items from the menu to the shopping cart.
 * The user can change screens to the shopping cart.
 * The shopping cart will have all the items that were added from the menu screen and an 'amount' display object showing
@@ -30,23 +34,21 @@ displayed at the bottom
 * Prefer to use hooks
 * Use immutable data and js functional higher order functions (reduce, map, filter, etc) when possible
 * Make sure code is styled and linted. eslint and prettier has been set up.
-* import the data from `src/data/menu`. Treat this data as if it were from data you received from an API.
+* Import the data from `src/data/menu`. Treat this data as if it were from data you received from an API.
   Store this data however you see fit.
-* do not use any third party state manager (ie. redux). You may use context api
-* react navigation has been set up in the project. Use that for navigation
+* Do not use any third party state manager (ie. redux). You may use context api
+* Use `react-navigation` for navigation. It's already been set up in the project. 
 
-## Grading Criteria
-** STYLING WILL NOT BE CONSIDERED **
+## Acceptance Criteria
+
 * In the interest of keeping this challenge short, spend a minimal amount of time styling the components.
-  The styling shouldn't affect usability of the UI, but I don't care if it is ugly.
-
-* All the points under 'Coding Challenge' above should be completed
-
-* App should be usable from a user's perspective
+  The styling shouldn't affect usability of the UI, but it's less important that how pretty the app looks. (for now :))
+* All the points under [Project](#project) above should be completed
+* App should functional
 
 ## Submission
 
-To submit your coding challenge, commit all your changes to the `master` branch and run the
+To submit your project, commit all your changes to the `master` branch and run the
 following commands:
 
 ```
@@ -60,7 +62,7 @@ git bundle create mobile-coding-challenge.bundle HEAD master
 Email the generated _mobile-coding-challenge.bundle_ file to engineering@wonderschool.com. We do our
 best to review and respond to submissions within 1-2 business days.
 
-Thanks for taking the time to do this coding challenge and here's hoping we talk soon!
+
 
 ## Sample Images
 Here is how a completed project could look
