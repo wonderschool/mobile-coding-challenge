@@ -30,7 +30,7 @@ displayed at the bottom
 * Prefer to use hooks
 * Use immutable data and js functional higher order functions (reduce, map, filter, etc) when possible
 * Make sure code is styled and linted. eslint and prettier has been set up.
-* import the data from `src/data/menu`. Treat this data as if it were from data you received from an API.
+* import the data from `src/data/menu`. Treat this data as if it were from data you received from an API, however you do not need to do anything special to import it.
   Store this data however you see fit.
 * do not use any third party state manager (ie. redux). You may use context api
 * react navigation has been set up in the project. Use that for navigation

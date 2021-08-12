@@ -19,7 +19,8 @@
     "semi": [2, "never"],
     "curly": "error",
     "no-unused-vars": "error",
-    "react/display-name": "off"
+    "react/display-name": "off",
+    "react/prop-types": "off"
   },
   "ignorePatterns": ["build/", "dist/", "node_modules/"],
   "settings": {
