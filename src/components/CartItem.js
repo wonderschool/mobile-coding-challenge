@@ -1,27 +1,32 @@
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 import React from 'react'
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 import Ionicons from '@expo/vector-icons/Ionicons'
 
-const MenuItem = ({ item, onPress = () => {} }) => {
+const CartItem = ({ item, index, onPressAdd, onPressRemove }) => {
   return (
-    <View style={styles.container}>
+    <View style={styles.itemContainer}>
       <View style={styles.leftContainer}>
         <Text style={styles.text}>{item.name}</Text>
       </View>
       <View style={styles.rightContainer}>
         <Text style={styles.text}>${item.price}</Text>
-        <TouchableOpacity style={styles.icon} onPress={onPress}>
+        <TouchableOpacity style={styles.itemIcon} onPress={() => onPressRemove(item, index)}>
+          <Ionicons name="remove-circle" size={30} color="red" />
+        </TouchableOpacity>
+        <Text>{item.quantity ? item.quantity : 1}</Text>
+        <TouchableOpacity style={styles.itemIcon} onPress={() => onPressAdd(item, index)}>
           <Ionicons name="add-circle" size={30} color="green" />
         </TouchableOpacity>
+        <Text style={styles.text}>$ {(item.price * item.quantity).toFixed(2)}</Text>
       </View>
     </View>
   )
 }
 
-export default MenuItem
+export default CartItem
 
 const styles = StyleSheet.create({
-  container: {
+  itemContainer: {
     flex: 1,
     flexDirection: 'row',
     paddingVertical: 20,
@@ -31,19 +36,22 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   leftContainer: {
-    flex: 0.7,
+    flex: 0.4,
   },
   rightContainer: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'space-around',
     justifyContent: 'flex-end',
-    flex: 0.3,
+    flex: 0.6,
+    flexWrap: 'wrap',
   },
-  icon: {
-    paddingHorizontal: 10,
-  },
+  
   text: {
     fontSize: 18,
     color: '#000',
+  },
+  itemIcon: {
+    paddingHorizontal: 10,
   },
 })
