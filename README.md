@@ -23,6 +23,7 @@ Again, thanks for taking the time to do this project and here's hoping we talk s
 * The user can change screens to the shopping cart.
 * The shopping cart will have all the items that were added from the menu screen and an 'amount' display object showing
 the number of times that item was added to the shopping cart.
+* Users should have some feedback that an item was added to the cart.
 * There should be a (+) button to add 1 to the amount for an item and a (-) button to subtract 1 from the amount
 * The shopping cart should also include the base price of the item, and the total price (base x amount)
 * When an item in the shopping cart reaches 0 amount, it should be removed from the shopping cart
@@ -34,10 +35,10 @@ displayed at the bottom
 * Prefer to use hooks
 * Use immutable data and js functional higher order functions (reduce, map, filter, etc) when possible
 * Make sure code is styled and linted. eslint and prettier has been set up.
-* import the data from `src/data/menu`. Treat this data as if it were from data you received from an API, however you do not need to do anything special to import it.
-  Store this data however you see fit.
-* Do not use any third party state manager (ie. redux). You may use context api
-* Use `react-navigation` for navigation. It's already been set up in the project. 
+* import the data from `src/data/menu`. Treat this data as if it were from data you received from an API.Store this data however you see fit.
+* Do not use any third party state manager (ie. redux). Please use context api.
+* `react-navigation` for navigation has already been set up in the project, but feel free to handle navigation anyway you want. 
+* Please treat this as if it's a greenfield project that is going to be worked on by multiple developers. 
 
 ## Acceptance Criteria
 
@@ -45,6 +46,7 @@ displayed at the bottom
   The styling shouldn't affect usability of the UI, but it's less important that how pretty the app looks. (for now :))
 * All the points under [Project](#project) above should be completed
 * App should functional
+* Include in your submission a note about future changes you'd make to this application, and how your approach would enable you to do so.
 
 ## Submission
 
