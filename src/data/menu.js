@@ -17,22 +17,21 @@ export const menuItems = [
   {
     id: 'tomahawkSteak',
     name: '44 oz Tomahawk Steak',
-    price: 92.48
+    price: 92.48,
   },
   {
     id: 'spaghettiMeatball',
     name: 'Spaghetti and Meatballs',
-    price: 7.99
+    price: 7.99,
   },
   {
     id: 'homerunBall',
     name: 'Homerun Balls',
-    price: 2.50
+    price: 2.5,
   },
   {
     id: 'chickenSandwich',
     name: 'Chicken Sandwich',
-    price: 3.99
-  }
-
-]
+    price: 3.99,
+  },
+];
