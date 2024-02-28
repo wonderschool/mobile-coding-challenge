@@ -36,7 +36,7 @@ Due to the time constraint this project focuses on the mobile app architecture a
 - UI
 
   - Todo:
-
+    - Tests: Meaningful unit and UI tests using jest
     - Error handling on for failed requests
     - Use animated skeleton (shimmer) or static UI skeleton components for component fallback
     - Use Suspense and place holders for image loaders
