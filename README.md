@@ -34,10 +34,10 @@ displayed at the bottom
 * Prefer to use functional components unless there is reason to use class based components
 * Prefer to use hooks
 * Use immutable data and js functional higher order functions (reduce, map, filter, etc) when possible
-* Make sure code is styled and linted. eslint and prettier has been set up.
+* Make sure code is styled and linted. eslint and prettier has been set up but feel free to modify as needed.
 * import the data from `src/data/menu`. Treat this data as if it were from data you received from an API.Store this data however you see fit.
 * Do not use any third party state manager (ie. redux). Please use context api.
-* `react-navigation` for navigation has already been set up in the project, but feel free to handle navigation anyway you want. 
+* `react-navigation` for navigation has already been set up in the project, feel free to use or add any navigators provided by `react-navigation`.
 * Please treat this as if it's a greenfield project that is going to be worked on by multiple developers. 
 
 ## Acceptance Criteria
