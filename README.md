@@ -50,7 +50,9 @@ displayed at the bottom
 
 ## Submission
 
-To submit your project, commit all your changes to the `master` branch and run the
+1. Capture and include a simulator video screen recording of visual demo of the app in this repo
+
+2. To submit your project, commit all your changes to the `master` branch and run the
 following commands:
 
 ```
